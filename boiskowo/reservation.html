@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiskowo - Rezerwacja Boiska</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Boiskowo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reservation.html">Rezerwacja</a></li>
+                <li><a href="tournament.html">Turnieje</a></li>
+                <li><a href="history.html">Historia</a></li>
+                <li><a href="reservations_list.html">Rezerwacje</a></li>
+                <li><a href="tournaments_list.html">Turnieje</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="reservation">
+            <h2>Rezerwacja Boiska</h2>
+            <form action="save_reservation.php" method="post">
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Godzina:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="field">Boisko:</label>
+                <select id="field" name="field" required>
+                    <option value="Boisko 1">Boisko 1</option>
+                    <option value="Boisko 2">Boisko 2</option>
+                    <option value="Boisko 3">Boisko 3</option>
+                </select>
+
+                <label for="players">Liczba graczy:</label>
+                <input type="number" id="players" name="players" min="2" max="22" required>
+
+                <input type="submit" value="Zarezerwuj">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Boiskowo. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>

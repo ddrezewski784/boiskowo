@@ -1,0 +1,312 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Dodaj do istniejącego pliku styles.css */
+
+.reservation {
+    text-align: center;
+    padding: 2rem;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Dodaj do istniejącego pliku styles.css */
+
+.tournament {
+    text-align: center;
+    padding: 2rem;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+input[type="submit"] {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Dodaj do istniejącego pliku styles.css */
+
+.history {
+    text-align: center;
+    padding: 2rem;
+}
+
+.matches {
+    list-style-type: none;
+    padding: 0;
+}
+
+.matches li {
+    background-color: #f2f2f2;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.reservations-list {
+    text-align: center;
+    padding: 2rem;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #0044cc;
+    color: white;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Dodaj do istniejącego pliku styles.css */
+
+.tournaments-list {
+    text-align: center;
+    padding: 2rem;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #0044cc;
+    color: white;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Inne style istniejące */
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Zielony kolor przycisku */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Inne style istniejące */
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ustawienie minimalnej wysokości na całą wysokość widoku */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Zielony kolor przycisku */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Inne style istniejące */
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ustawienie minimalnej wysokości na całą wysokość widoku */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    width: 35%; /* Szerokość przycisków */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Zielony kolor przycisku */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Inne style istniejące */
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ustawienie minimalnej wysokości na całą wysokość widoku */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center; /* Wyśrodkowanie przycisków w poziomie */
+}
+
+.button {
+    display: inline-block;
+    width: 35%; /* Szerokość przycisków */
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Zielony kolor przycisku */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
